@@ -16,11 +16,20 @@ const Home: NextPage = () => {
             </p>
             <div className="mt-2 text-md text-gray-700">
               Here the select tag should be shown, e.g. <br />
-              Tag: Breakfast
+            </div>
+
+            {/* Only show selected Tag below! */}
+            <div className="flex mt-8">
+              <div
+                className={`mr-1  text-black rounded-lg my-0.5 py-1 px-2 border border-gray-400`}
+              >
+                <span className="font-medium">Tag:</span> {Tag.Breakfast}
+                {/* Think about a way to remove a tag again */}
+              </div>
             </div>
           </div>
         </div>
-        <div className="mt-8 flex flex-col">
+        <div className="mt-2 flex flex-col">
           <div className="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
             <div className="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
               <div className="overflow-hidden shadow ring-1 ring-black ring-opacity-5 md:rounded-lg">
