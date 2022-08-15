@@ -14,7 +14,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 Implement an option to filter by tags.
 
-You have to use [https://tailwindcss.com/](TailwindCSS) to stile the front-end. Please don't use any other UI library.
+You have to use [https://tailwindcss.com/](TailwindCSS) to style the front-end. Please don't use any other UI library.
 
 You are free to use a state-management solution of your choice.
 
