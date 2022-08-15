@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
 First, run the development server:
@@ -12,23 +10,24 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Specification
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Implement an option to filter by tags.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+You have to use [https://tailwindcss.com/](TailwindCSS) to stile the front-end. Please don't use any other UI library.
 
-## Learn More
+You are free to use a state-management solution of your choice.
 
-To learn more about Next.js, take a look at the following resources:
+### User flow
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. The User clicks on the Tags header in the table which opens a dropdown menu.
+1. In this dropdown menu, the user clicks filter.
+1. This opens another dropdown menu in which the user can select the Tag to filter by. This actually filters the table.
+1. The selected Tag is shown above the table.
+1. The user can remove the filter by interacting with the selected Tag filter above the table.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Deliverable
 
-## Deploy on Vercel
+A forked version of this repository that implements the user flow described above.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Your main focus should be delivering a good User Experience.
