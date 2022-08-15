@@ -31,3 +31,7 @@ You are free to use a state-management solution of your choice.
 A forked version of this repository that implements the user flow described above.
 
 Your main focus should be delivering a good User Experience.
+
+## Starting Point
+![image](https://user-images.githubusercontent.com/27199575/184616566-cb245309-2ce7-4324-8440-86601ebf3f6f.png)
+
