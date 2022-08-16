@@ -31,7 +31,7 @@ You have to use [TailwindCSS](https://tailwindcss.com/) to style the front-end. 
 
 You are free to use any state-management solution of your choice (or none).
 
-Below you can find an example of a user flow. Feel free to deviate from it if you deem necessary.
+Below you can find an example of a user flow. Feel free to deviate from it if you deem necessary but please __include at least one drop-down menu__.
 
 ### User flow (Example)
 
@@ -43,9 +43,9 @@ Below you can find an example of a user flow. Feel free to deviate from it if yo
 
 ## Deliverable
 
-A forked version of this repository that implements (parts of) a tags filter similar to the user flow above.
+A forked version of this repository that implements (parts of) a tags filter similar to the user flow above __utilizing at least one drop-down menu__.
 
-Your main focus should be delivering a good UX / UI.
+__Your main focus should be delivering a good UX / UI.__
 
 ## Starting Point
 ![image](https://user-images.githubusercontent.com/27199575/184616566-cb245309-2ce7-4324-8440-86601ebf3f6f.png)
