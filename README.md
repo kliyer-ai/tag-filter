@@ -27,7 +27,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 Implement an option to filter by tags.
 
-You have to use [https://tailwindcss.com/](TailwindCSS) to style the front-end. For some basic components, you may use [https://headlessui.com/](headlessUI), which you can style with TailwindCSS. Please don't use any other UI libraries.
+You have to use [TailwindCSS](https://tailwindcss.com/) to style the front-end. For some basic components, you may use [headlessUI](https://headlessui.com/), which you can style with TailwindCSS. Please don't use any other UI libraries.
 
 You are free to use any state-management solution of your choice (or none).
 
